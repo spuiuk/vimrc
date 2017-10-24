@@ -2,7 +2,7 @@ if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gno
   set t_Co=256
 endif
 
-colorscheme molokai
+colorscheme desert256
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -19,13 +19,16 @@ nmap \l :setlocal number!<CR>
 nmap \o :set paste!<CR>
 nmap \q :nohlsearch<CR>
 nmap <C-e> :e#<CR>
+nmap \] :IndentGuidesToggle<CR>
 
 " " Plugin: vim-colors-solarized
 " set background=dark
 " colorscheme solarized
 
 " Plugin vim-indent-guides
-let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_enable_on_vim_startup = 0
+let g:indent_guides_start_level = 1
+let g:indent_guides_guide_size = 1
 
 if has('cscope')
   set cscopetag cscopeverbose
