@@ -23,16 +23,16 @@ repos=(
    sheerun/vim-polyglot
 #  statico/vim-inform7
 #  tomasr/molokai
-#  tpope/vim-commentary
+   tpope/vim-commentary
 #  tpope/vim-endwise
 #  tpope/vim-eunuch
-#  tpope/vim-fugitive
+   tpope/vim-fugitive
 #  tpope/vim-pathogen
-#  tpope/vim-repeat
+   tpope/vim-repeat
 #  tpope/vim-rhubarb
-#  tpope/vim-sleuth
-#  tpope/vim-surround
-#   tpope/vim-sensible
+   tpope/vim-sleuth
+   tpope/vim-surround
+#  tpope/vim-sensible
 #  tpope/vim-unimpaired
 #  w0rp/ale
 #  wellle/targets.vim
