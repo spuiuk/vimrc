@@ -34,7 +34,7 @@ repos=(
 #   tpope/vim-surround
 #  tpope/vim-sensible
 #  tpope/vim-unimpaired
-#  w0rp/ale
+   w0rp/ale
 #  wellle/targets.vim
 
 )

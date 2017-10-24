@@ -20,6 +20,7 @@ nmap \o :set paste!<CR>
 nmap \q :nohlsearch<CR>
 nmap <C-e> :e#<CR>
 nmap \] :IndentGuidesToggle<CR>
+nmap \c :ALEToggle<CR>
 
 " " Plugin: vim-colors-solarized
 " set background=dark
@@ -29,6 +30,9 @@ nmap \] :IndentGuidesToggle<CR>
 let g:indent_guides_enable_on_vim_startup = 0
 let g:indent_guides_start_level = 1
 let g:indent_guides_guide_size = 1
+
+" Plugin w0rp/ale
+let g:ale_enabled = 0
 
 if has('cscope')
   set cscopetag cscopeverbose
