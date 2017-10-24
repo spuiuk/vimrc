@@ -6,7 +6,7 @@
 
 repos=(
 
-#  airblade/vim-gitgutter
+   airblade/vim-gitgutter
 #  alampros/vim-styled-jsx
    altercation/vim-colors-solarized
 #  ap/vim-css-color
@@ -20,7 +20,7 @@ repos=(
    nathanaelkane/vim-indent-guides
 #  qpkorr/vim-bufkill
 #  scrooloose/nerdtree
-#  sheerun/vim-polyglot
+   sheerun/vim-polyglot
 #  statico/vim-inform7
 #  tomasr/molokai
 #  tpope/vim-commentary
