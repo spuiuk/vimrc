@@ -6,35 +6,36 @@
 
 repos=(
 
-  airblade/vim-gitgutter
-  alampros/vim-styled-jsx
-  altercation/vim-colors-solarized
-  ap/vim-css-color
-  docunext/closetag.vim
-  ervandew/supertab
-  haya14busa/incsearch.vim
-  itchyny/lightline.vim
-  junegunn/fzf.vim
-  junegunn/goyo.vim
-  mileszs/ack.vim
-  nathanaelkane/vim-indent-guides
-  qpkorr/vim-bufkill
-  scrooloose/nerdtree
-  sheerun/vim-polyglot
-  statico/vim-inform7
-  tomasr/molokai
-  tpope/vim-commentary
-  tpope/vim-endwise
-  tpope/vim-eunuch
-  tpope/vim-fugitive
-  tpope/vim-pathogen
-  tpope/vim-repeat
-  tpope/vim-rhubarb
-  tpope/vim-sleuth
-  tpope/vim-surround
-  tpope/vim-unimpaired
-  w0rp/ale
-  wellle/targets.vim
+#  airblade/vim-gitgutter
+#  alampros/vim-styled-jsx
+   altercation/vim-colors-solarized
+#  ap/vim-css-color
+#  docunext/closetag.vim
+#  ervandew/supertab
+#  haya14busa/incsearch.vim
+#  itchyny/lightline.vim
+#  junegunn/fzf.vim
+#  junegunn/goyo.vim
+#  mileszs/ack.vim
+   nathanaelkane/vim-indent-guides
+#  qpkorr/vim-bufkill
+#  scrooloose/nerdtree
+#  sheerun/vim-polyglot
+#  statico/vim-inform7
+#  tomasr/molokai
+#  tpope/vim-commentary
+#  tpope/vim-endwise
+#  tpope/vim-eunuch
+#  tpope/vim-fugitive
+#  tpope/vim-pathogen
+#  tpope/vim-repeat
+#  tpope/vim-rhubarb
+#  tpope/vim-sleuth
+#  tpope/vim-surround
+   tpope/vim-sensible
+#  tpope/vim-unimpaired
+#  w0rp/ale
+#  wellle/targets.vim
 
 )
 
@@ -45,7 +46,7 @@ if [ -d $dir -a -z "$1" ]; then
   temp="$(mktemp -d -t bundleXXXXX)"
   echo "▲ Moving old bundle dir to $temp"
   mkdir -p $temp
-  mv "$dir/[^\.]*" "$temp/" || true 
+  mv $dir/* "$temp/" || true
 fi
 
 for repo in ${repos[@]}; do
