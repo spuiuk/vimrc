@@ -3,7 +3,6 @@ if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gno
 endif
 
 colorscheme desert256
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set scrolloff=1
@@ -21,6 +20,13 @@ nmap \q :nohlsearch<CR>
 nmap <C-e> :e#<CR>
 nmap \] :IndentGuidesToggle<CR>
 nmap \c :ALEToggle<CR>
+
+" *** Plugins ***
+
+" Call Pathogen first
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+call pathogen#helptags()
 
 " " Plugin: vim-colors-solarized
 " set background=dark

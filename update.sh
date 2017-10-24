@@ -27,7 +27,7 @@ repos=(
 #  tpope/vim-endwise
 #  tpope/vim-eunuch
    tpope/vim-fugitive
-#  tpope/vim-pathogen
+   tpope/vim-pathogen
    tpope/vim-repeat
 #  tpope/vim-rhubarb
    tpope/vim-sleuth
