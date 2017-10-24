@@ -5,10 +5,14 @@ filetype plugin indent on
 set scrolloff=1
 " Move through text file as you search
 set incsearch
+set ignorecase
+set smartcase
+set hlsearch
 
 " Key mappings
 nmap \l :setlocal number!<CR>
 nmap \o :set paste!<CR>
+nmap \q :nohlsearch<CR>
 
 " Plugin: vim-colors-solarized
 set background=dark
