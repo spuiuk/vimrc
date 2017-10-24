@@ -13,6 +13,7 @@ set hlsearch
 nmap \l :setlocal number!<CR>
 nmap \o :set paste!<CR>
 nmap \q :nohlsearch<CR>
+nmap <C-e> :e#<CR>
 
 " Plugin: vim-colors-solarized
 set background=dark
