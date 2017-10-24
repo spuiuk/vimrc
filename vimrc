@@ -4,6 +4,10 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" Plugin: vim-colors-solarized
+set background=dark
+colorscheme solarized
+
 if has('cscope')
   set cscopetag cscopeverbose
 
