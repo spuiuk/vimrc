@@ -8,7 +8,7 @@ repos=(
 
    airblade/vim-gitgutter
 #  alampros/vim-styled-jsx
-   altercation/vim-colors-solarized
+#   altercation/vim-colors-solarized
 #  ap/vim-css-color
 #  docunext/closetag.vim
 #  ervandew/supertab
@@ -31,7 +31,7 @@ repos=(
    tpope/vim-repeat
 #  tpope/vim-rhubarb
    tpope/vim-sleuth
-   tpope/vim-surround
+#   tpope/vim-surround
 #  tpope/vim-sensible
 #  tpope/vim-unimpaired
 #  w0rp/ale
