@@ -13,7 +13,7 @@ repos=(
 #  docunext/closetag.vim
 #  ervandew/supertab
 #  haya14busa/incsearch.vim
-#  itchyny/lightline.vim
+   itchyny/lightline.vim
 #  junegunn/fzf.vim
 #  junegunn/goyo.vim
 #  mileszs/ack.vim

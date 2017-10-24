@@ -12,6 +12,7 @@ set incsearch
 set ignorecase
 set smartcase
 set hlsearch
+set laststatus=2
 
 " Key mappings
 nmap \l :setlocal number!<CR>
