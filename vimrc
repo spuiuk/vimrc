@@ -1,7 +1,7 @@
 colorscheme torte
 
 execute pathogen#infect()
-symtax on
+syntax on
 filetype plugin indent on
 
 if has('cscope')
