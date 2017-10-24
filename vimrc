@@ -1,8 +1,10 @@
-colorscheme torte
-
+"colorscheme torte
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set scrolloff=1
+" Move through text file as you search
+set incsearch
 
 " Plugin: vim-colors-solarized
 set background=dark
@@ -10,10 +12,6 @@ colorscheme solarized
 
 " Plugin vim-indent-guides
 let g:indent_guides_enable_on_vim_startup = 1
-
-set scrolloff=1
-" Move through text file as you search
-set incsearch
 
 if has('cscope')
   set cscopetag cscopeverbose
