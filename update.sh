@@ -44,10 +44,9 @@ dir=~/.dotfiles/.vim/bundle
 if [ -d $dir -a -z "$1" ]; then
   temp="$(mktemp -d -t bundleXXXXX)"
   echo "▲ Moving old bundle dir to $temp"
-  mv "$dir" "$temp"
+  mkdir -p $temp
+  mv "$dir/[^\.]*" "$temp/" || true 
 fi
-
-mkdir -p $dir
 
 for repo in ${repos[@]}; do
   if [ -n "$1" ]; then
