@@ -6,6 +6,10 @@ set scrolloff=1
 " Move through text file as you search
 set incsearch
 
+" Key mappings
+nmap \l :setlocal number!<CR>
+nmap \o :set paste!<CR>
+
 " Plugin: vim-colors-solarized
 set background=dark
 colorscheme solarized
