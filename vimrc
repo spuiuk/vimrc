@@ -8,6 +8,9 @@ filetype plugin indent on
 set background=dark
 colorscheme solarized
 
+" Plugin vim-indent-guides
+let g:indent_guides_enable_on_vim_startup = 1
+
 if has('cscope')
   set cscopetag cscopeverbose
 
