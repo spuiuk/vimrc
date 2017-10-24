@@ -32,7 +32,7 @@ repos=(
 #  tpope/vim-rhubarb
 #  tpope/vim-sleuth
 #  tpope/vim-surround
-   tpope/vim-sensible
+#   tpope/vim-sensible
 #  tpope/vim-unimpaired
 #  w0rp/ale
 #  wellle/targets.vim
