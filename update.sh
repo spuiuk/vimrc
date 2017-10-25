@@ -17,7 +17,7 @@ repos=(
 #  haya14busa/incsearch.vim
    itchyny/lightline.vim
 #  junegunn/fzf.vim
-#  junegunn/goyo.vim
+   junegunn/goyo.vim
 #  mileszs/ack.vim
    nathanaelkane/vim-indent-guides
 #  qpkorr/vim-bufkill
