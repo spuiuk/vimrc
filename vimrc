@@ -19,6 +19,7 @@ nmap \q :nohlsearch<CR>
 nmap <C-e> :e#<CR>
 nmap \] :IndentGuidesToggle<CR>
 nmap \c :ALEToggle<CR>
+nmap \t :Tagbar<CR>
 
 " *** Plugins ***
 
