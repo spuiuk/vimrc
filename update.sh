@@ -43,7 +43,7 @@ repos=(
 )
 
 set -e
-dir=~/.dotfiles/.vim/bundle
+dir=~/dotfiles/vim/bundle
 
 if [ ! -d $dir ]
 then
