@@ -39,7 +39,7 @@ repos=(
    w0rp/ale
 #  wellle/targets.vim
    vim-scripts/desert256.vim
-
+   majutsushi/tagbar
 )
 
 set -e
