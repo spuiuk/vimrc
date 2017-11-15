@@ -22,6 +22,7 @@ nmap \c :ALEToggle<CR>
 nmap \t :Tagbar<CR>
 set listchars=tab:\|\ "A trailing space here is needed
 nmap \g :set list!<CR>
+nmap \b :Gblame!<CR>
 
 " *** Plugins ***
 
