@@ -40,6 +40,7 @@ repos=(
 #  wellle/targets.vim
    vim-scripts/desert256.vim
    majutsushi/tagbar
+   ludovicchabant/vim-gutentags
 )
 
 set -e
