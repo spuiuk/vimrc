@@ -25,6 +25,12 @@ nmap \g :set list!<CR>
 nmap \b :Gblame!<CR>
 nmap \sc :set syntax=c<CR>
 
+"Improve movement on wrapped lines
+nnoremap <Up> g<Up>
+nnoremap <Down> g<Down>
+nnoremap <Home> g<Home>
+nnoremap <End> g<End>
+
 " *** Plugins ***
 
 " Call Pathogen first
