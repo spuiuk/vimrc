@@ -16,6 +16,7 @@ repos=(
 #  ervandew/supertab
 #  haya14busa/incsearch.vim
    itchyny/lightline.vim
+   itchyny/vim-gitbranch
 #  junegunn/fzf.vim
    junegunn/goyo.vim
 #  mileszs/ack.vim
@@ -41,6 +42,7 @@ repos=(
    vim-scripts/desert256.vim
    majutsushi/tagbar
    ludovicchabant/vim-gutentags
+   ntpeters/vim-better-whitespace
 )
 
 set -e
