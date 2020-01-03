@@ -87,7 +87,7 @@ endif
 " Plugin Lightline using tagbar
 let g:lightline = {
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ], [ 'gitbranch', 'filename', ], [ 'tagbar' ] ]
+      \   'left': [ [ 'mode' ], [ 'gitbranch', 'filename', ], [ 'tagbar' ] ]
       \ },
       \ 'component': {
       \         'tagbar': '%{tagbar#currenttag("%s", "", "f")}',
