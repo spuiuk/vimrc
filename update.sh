@@ -7,6 +7,7 @@
 # When deleting plugins, uncomment here and delete in bundles directory
 
 repos=(
+   tpope/vim-pathogen
 
    airblade/vim-gitgutter
 #  alampros/vim-styled-jsx
@@ -30,7 +31,6 @@ repos=(
 #  tpope/vim-endwise
 #  tpope/vim-eunuch
    tpope/vim-fugitive
-   tpope/vim-pathogen
    tpope/vim-repeat
 #  tpope/vim-rhubarb
    tpope/vim-sleuth
