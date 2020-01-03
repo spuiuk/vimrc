@@ -67,6 +67,9 @@ let g:indent_guides_guide_size = 1
 " Plugin w0rp/ale
 let g:ale_enabled = 0
 
+" Plugin gutentags
+let g:gutentags_cache_dir = '~/.vim/gutentags'
+
 if has('cscope')
   set cscopetag cscopeverbose
 
