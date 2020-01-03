@@ -19,7 +19,7 @@ repos=(
    itchyny/lightline.vim
    itchyny/vim-gitbranch
 #  junegunn/fzf.vim
-   junegunn/goyo.vim
+#  junegunn/goyo.vim
 #  mileszs/ack.vim
    nathanaelkane/vim-indent-guides
 #  qpkorr/vim-bufkill
