@@ -35,6 +35,8 @@ nmap <Leader>g :set list!<CR>
 nmap <Leader>b :Gblame!<CR>
 "Enable c syntax highlighting
 nmap <Leader>sc :set syntax=c<CR>
+"Allow to write to file using sudo
+cmap w!! w !sudo tee % >/dev/null
 
 " My debug lines
 map! <Leader>ds DEBUG(0, ("SP: %s:%d\n", __func__, __LINE__));
