@@ -15,29 +15,29 @@ set laststatus=2
 " Key mappings
 
 "Add line numbers
-nmap \l :setlocal number!<CR>
+nmap <Leader>l :setlocal number!<CR>
 "Set paste mode ?
-nmap \o :set paste!<CR>
+nmap <Leader>o :set paste!<CR>
 "Clear search highlights
-nmap \q :nohlsearch<CR>
+nmap <Leader>q :nohlsearch<CR>
 "?
 nmap <C-e> :e#<CR>
 "Switch indent guide on/off
-nmap \] :IndentGuidesToggle<CR>
+nmap <Leader>] :IndentGuidesToggle<CR>
 "Syntax checker on/off
-nmap \c :ALEToggle<CR>
+nmap <Leader>c :ALEToggle<CR>
 "ctags - displays c functions in file
-nmap \t :Tagbar<CR>
+nmap <Leader>t :Tagbar<CR>
 "Show indent lines. need line above
 set listchars=tab:\|\ "A trailing space here is needed
-nmap \g :set list!<CR>
+nmap <Leader>g :set list!<CR>
 "Git blame
-nmap \b :Gblame!<CR>
+nmap <Leader>b :Gblame!<CR>
 "Enable c syntax highlighting
-nmap \sc :set syntax=c<CR>
+nmap <Leader>sc :set syntax=c<CR>
 
 " My debug lines
-map! \ds DEBUG(0, ("SP: %s:%d\n", __func__, __LINE__));
+map! <Leader>ds DEBUG(0, ("SP: %s:%d\n", __func__, __LINE__));
 
 "Improve movement on wrapped lines
 nnoremap <Up> g<Up>
