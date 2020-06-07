@@ -43,7 +43,6 @@ repos=(
    majutsushi/tagbar #Show tags in sidebar
    ludovicchabant/vim-gutentags #Generate tags for a file
    ntpeters/vim-better-whitespace #Show trailing whitespace
-   neoclide/coc.nvim #Intellisense
 )
 
 set -e
