@@ -24,7 +24,7 @@ repos=(
    nathanaelkane/vim-indent-guides #show guide line where indent tabs occur
 #  qpkorr/vim-bufkill
 #  scrooloose/nerdtree
-   sheerun/vim-polyglot #Indentation and syntax support for various langs
+#   sheerun/vim-polyglot #Indentation and syntax support for various langs
 #  statico/vim-inform7
 #  tomasr/molokai
    tpope/vim-commentary #Commenting blocks of code or lines - Select in visual mode and 'gc'
@@ -33,7 +33,7 @@ repos=(
    tpope/vim-fugitive #Git handling in vim
    tpope/vim-repeat #Repeat last command using '.'
 #  tpope/vim-rhubarb
-   tpope/vim-sleuth #Change shiftwidth and expandtab based on opened file
+#   tpope/vim-sleuth #Change shiftwidth and expandtab based on opened file
 #   tpope/vim-surround
 #  tpope/vim-sensible
 #  tpope/vim-unimpaired
