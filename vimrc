@@ -11,6 +11,7 @@ set ignorecase
 set smartcase
 set hlsearch
 set laststatus=2
+set tabstop=8 shiftwidth=8
 
 " Key mappings
 
@@ -37,6 +38,12 @@ nmap <Leader>b :Gblame!<CR>
 nmap <Leader>sc :set syntax=c<CR>
 "Allow to write to file using sudo
 cmap w!! w !sudo tee % >/dev/null
+"Enable 4 tab
+nmap <Leader>it4 :set tabstop=4 shiftwidth=4<CR>
+"Enable 8 tab
+nmap <Leader>it8 :set tabstop=8 shiftwidth=8<CR>
+"Enable 4 space
+nmap <Leader>is4 :set tabstop=4 shiftwidth=4 expandtab<CR>
 
 " My debug lines
 map! <Leader>ds DEBUG(0, ("SP: %s:%d\n", __func__, __LINE__));
