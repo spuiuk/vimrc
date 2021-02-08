@@ -24,7 +24,7 @@ repos=(
    nathanaelkane/vim-indent-guides #show guide line where indent tabs occur
 #  qpkorr/vim-bufkill
 #  scrooloose/nerdtree
-#   sheerun/vim-polyglot #Indentation and syntax support for various langs
+   sheerun/vim-polyglot #Indentation and syntax support for various langs
 #  statico/vim-inform7
 #  tomasr/molokai
    tpope/vim-commentary #Commenting blocks of code or lines - Select in visual mode and 'gc'
